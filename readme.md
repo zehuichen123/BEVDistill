@@ -19,6 +19,8 @@
 | - | - | - | - |
 | BEVFormer-R50 | | 35.2 | 42.3 |
 | BEVDistill-R50 | | 38.6 | 45.7 |
+| BEVFormer-T-R50 | | 38.3 | 48.8 |
+| BEVDistill-T-R50 | | 40.7 | 51.5 |
 
 ### nuScenes Test Leaderboard
 | Model | mAP | NDS |
