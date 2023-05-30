@@ -19,6 +19,9 @@ This code is an initial release with BEVFormer-T only, we will release a full ve
 ## Run
 
 ```bash
+# baseline
+./tools/dist_train.sh projects/configs/video_bevformer/bevformer_128x128_r50_2x.py 8
+# BEVDistill
 ./tools/dist_train_distill.sh projects/configs/bevdistill/bevdistill_r50_128x128_900query_bboxrweighttop100_bevgt_mocov2_merge_r1_2x.py 8
 ```
 
