@@ -1,0 +1,1 @@
+from .l2_loss import FitLoss
