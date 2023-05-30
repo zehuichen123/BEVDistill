@@ -30,9 +30,11 @@ This code is an initial release with BEVFormer-T only, we will release a full ve
 | BEVFormer-R50 | | 35.2 | 42.3 |
 | BEVDistill-R50 | | 38.6 | 45.7 |
 | BEVFormer-T-R50 | | 38.3 | 48.8 |
-| BEVDistill-T-R50 | | 40.7 | 51.5 |
+| BEVDistill-T-R50 | [link](https://github.com/zehuichen123/BEVDistill/blob/main/projects/configs/bevdistill/bevdistill_r50_128x128_900query_bboxrweighttop100_bevgt_mocov2_merge_r1_2x.py) | 40.7 | 51.5 |
+| BEVFormer-T-R101 | | 40.5 | 50.6 |
+| BEVDistill-T-R101 | [link](https://github.com/zehuichen123/BEVDistill/blob/main/projects/configs/bevdistill/bevdistill_r101_128x128_900query_bboxrweighttop100_bevgt_mocov2_merge_r1_2x.py) | 41.7 | 52.4 |
 
-### nuScenes Test Leaderboard
-| Model | mAP | NDS |
-| -|-|-|
-| BEVDistill |  49.8  |  59.4  |
+## Pretrain Checkpoints
+
+|Model | Weight| mAP | NDS|
+|Teacher ObjectDGCNN | [link](https://drive.google.com/file/d/1UX8Sc4A5aAnkPkdXoVEIV_sAlLlf9h_C/view?usp=sharing) | 67.4 | 61.5 |
