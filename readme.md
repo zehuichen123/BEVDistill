@@ -42,3 +42,4 @@ This code is an initial release with BEVFormer-T only, we will release a full ve
 |Model | Weight| mAP | NDS|
 | - | - | -| -|
 | ObjectDGCNN (Teacher)| [link](https://drive.google.com/file/d/1UX8Sc4A5aAnkPkdXoVEIV_sAlLlf9h_C/view?usp=sharing) | 67.4 | 61.5 |
+| FCOS3D r50 (Student) | [link](https://drive.google.com/file/d/1iYQKrCKVCbJUMq56zn8of7dSPZd_CmnI/view?usp=sharing) | | |
